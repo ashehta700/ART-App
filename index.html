@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="draw">
+        <canvas id="canvas" width="700" height="500"></canvas>
+    </section>
+    <section id="toolbar">
+        <button id="free" class="tool shape">Free</button>
+        <button id="line" class="tool shape">line</button>
+        <button id="rect" class="tool shape">rect</button>
+        <button id="circle" class="tool shape">circle</button>
+        <button id="erase" class="tool shape">Earse</button>
+        <input id="fillStyle" type="color" class="tool" value="#ffffff">
+        <input id="strokeStyle" type="color" class="tool"> line Width
+        <input id="lineWidth" type="range" class="tool" min="1" max="25" value="1">
+    </section>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
